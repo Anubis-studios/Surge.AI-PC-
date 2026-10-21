@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gemini Ink</title>
+    <title>Remix Visual Computer - Open Agent OS</title>
+    <meta name="description" content="Open Agent OS — Unified AI workspace with MiniMax M2.7 default, real free-tier AI providers, strict free-only routing, streaming chat, and interactive OS desktop.">
+    <meta property="og:title" content="Remix Visual Computer - Open Agent OS">
+    <meta property="og:description" content="Open Agent OS — Unified AI workspace with MiniMax M2.7 default, real free-tier AI providers, strict free-only routing, streaming chat, and interactive OS desktop.">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
     <script>
@@ -12,10 +15,12 @@
                 extend: {
                     colors: {
                         os: {
-                            bg: '#1e1e2e',
-                            surface: '#313244',
-                            text: '#cdd6f4',
-                            accent: '#89b4fa'
+                            bg: '#12131a',
+                            surface: '#1c1e29',
+                            card: '#222533',
+                            border: '#2f3447',
+                            text: '#e2e8f0',
+                            accent: '#6366f1'
                         }
                     },
                     animation: {
@@ -26,11 +31,12 @@
         }
     </script>
     <style>
-        body { touch-action: none; /* Prevent scrolling when drawing */ }
-        /* Custom scrollbar for Mail app */
-        ::-webkit-scrollbar { width: 6px; }
+        .ink-canvas-active { touch-action: none; }
+        /* Custom scrollbar */
+        ::-webkit-scrollbar { width: 6px; height: 6px; }
         ::-webkit-scrollbar-track { background: transparent; }
-        ::-webkit-scrollbar-thumb { background: #4b5563; border-radius: 3px; }
+        ::-webkit-scrollbar-thumb { background: #3b4252; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #4c566a; }
     </style>
 <script type="importmap">
 {

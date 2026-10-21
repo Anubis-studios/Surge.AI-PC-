@@ -1,6 +1,8 @@
 {
   "name": "Remix Visual Computer",
-  "description": "Use your pen to control a virtual OS. Create AI wallpapers, take actions on folders, and summarize emails, leveraging the multimodal understanding capabilities of all models ",
+  "description": "Open Agent OS — Unified AI workspace with MiniMax M2.7 default, real free-tier AI providers, strict free-only routing, streaming chat, and interactive OS desktop.",
   "requestFramePermissions": [],
-  "majorCapabilities": []
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }

@@ -1,0 +1,151 @@
+{
+  "preferences": {
+    "defaultModel": "minimax/minimax-m2.7",
+    "preferredProvider": "openrouter",
+    "freeOnly": true,
+    "allowFallback": true,
+    "theme": "dark",
+    "dataRetention": "persistent"
+  },
+  "conversations": [
+    {
+      "id": "conv_osdru8xyg",
+      "title": "Say: Welcome to Open Agent OS",
+      "createdAt": "2026-10-20T23:54:39.640Z",
+      "updatedAt": "2026-10-20T23:55:08.209Z",
+      "messages": [
+        {
+          "id": "msg_vyyrttkjv",
+          "role": "user",
+          "content": "Say: Welcome to Open Agent OS",
+          "createdAt": "2026-10-20T23:54:39.640Z"
+        },
+        {
+          "id": "msg_3kyxftffz",
+          "role": "assistant",
+          "content": "",
+          "createdAt": "2026-10-20T23:55:08.208Z",
+          "metadata": {
+            "requestId": "req_dyykmnduq",
+            "requestedModel": "minimax/minimax-m2.7",
+            "actualModel": "gemini-3.8-flash",
+            "provider": "gemini",
+            "providerDisplayName": "Google Gemini",
+            "fallbackOccurred": true,
+            "fallbackReason": "Model \"MiniMax M2.7\" is a paid model ($0.15/M tokens). Blocked by Free-Only policy.",
+            "latencyMs": 28567,
+            "freeEligibility": "free_with_limits",
+            "finishReason": "stop",
+            "timestamp": "2026-10-20T23:55:08.208Z"
+          }
+        }
+      ],
+      "selectedModel": "minimax/minimax-m2.7",
+      "selectedProvider": "openrouter"
+    },
+    {
+      "id": "conv_lbxrxt0el",
+      "title": "Say: Open Agent OS is ready in 5...",
+      "createdAt": "2026-10-20T23:52:32.357Z",
+      "updatedAt": "2026-10-20T23:52:51.307Z",
+      "messages": [
+        {
+          "id": "msg_mltpfz160",
+          "role": "user",
+          "content": "Say: Open Agent OS is ready in 5 words",
+          "createdAt": "2026-10-20T23:52:32.357Z"
+        },
+        {
+          "id": "msg_gvf8fz5id",
+          "role": "assistant",
+          "content": "",
+          "createdAt": "2026-10-20T23:52:51.307Z",
+          "metadata": {
+            "requestId": "req_fmo1xqed2",
+            "requestedModel": "minimax/minimax-m2.7",
+            "actualModel": "gemini-3.8-flash",
+            "provider": "gemini",
+            "providerDisplayName": "Google Gemini",
+            "fallbackOccurred": true,
+            "fallbackReason": "Model \"MiniMax M2.7\" is a paid model ($0.15/M tokens). Blocked by Free-Only policy.",
+            "latencyMs": 18950,
+            "freeEligibility": "free_with_limits",
+            "finishReason": "stop",
+            "timestamp": "2026-10-20T23:52:51.307Z"
+          }
+        }
+      ],
+      "selectedModel": "minimax/minimax-m2.7",
+      "selectedProvider": "openrouter"
+    },
+    {
+      "id": "conv_vdsykl77h",
+      "title": "Say: Open Agent OS is ready in 5...",
+      "createdAt": "2026-10-20T23:52:18.741Z",
+      "updatedAt": "2026-10-20T23:52:51.077Z",
+      "messages": [
+        {
+          "id": "msg_zqk8c06og",
+          "role": "user",
+          "content": "Say: Open Agent OS is ready in 5 words",
+          "createdAt": "2026-10-20T23:52:18.741Z"
+        },
+        {
+          "id": "msg_vdjwb91ok",
+          "role": "assistant",
+          "content": "",
+          "createdAt": "2026-10-20T23:52:51.077Z",
+          "metadata": {
+            "requestId": "req_giycq6yti",
+            "requestedModel": "minimax/minimax-m2.7",
+            "actualModel": "gemini-3.8-flash",
+            "provider": "gemini",
+            "providerDisplayName": "Google Gemini",
+            "fallbackOccurred": true,
+            "fallbackReason": "Model \"MiniMax M2.7\" is a paid model ($0.15/M tokens). Blocked by Free-Only policy.",
+            "latencyMs": 32334,
+            "freeEligibility": "free_with_limits",
+            "finishReason": "stop",
+            "timestamp": "2026-10-20T23:52:51.076Z"
+          }
+        }
+      ],
+      "selectedModel": "minimax/minimax-m2.7",
+      "selectedProvider": "openrouter"
+    },
+    {
+      "id": "conv_ej6ga8byb",
+      "title": "New Conversation",
+      "createdAt": "2026-10-20T23:52:11.404Z",
+      "updatedAt": "2026-10-20T23:52:11.404Z",
+      "messages": [
+        {
+          "id": "msg_1pnl95t0x",
+          "role": "user",
+          "content": "Say: Open Agent OS is ready in 5 words",
+          "createdAt": "2026-10-20T23:52:11.404Z"
+        }
+      ],
+      "selectedModel": "minimax/minimax-m2.7",
+      "selectedProvider": "openrouter"
+    },
+    {
+      "id": "conv_bsn9kcliq",
+      "title": "New Conversation",
+      "createdAt": "2026-10-20T23:51:51.655Z",
+      "updatedAt": "2026-10-20T23:51:51.656Z",
+      "messages": [
+        {
+          "id": "msg_3tvac7zsh",
+          "role": "user",
+          "content": "Hello Open Agent OS!",
+          "createdAt": "2026-10-20T23:51:51.656Z"
+        }
+      ],
+      "selectedModel": "minimax/minimax-m2.7",
+      "selectedProvider": "openrouter"
+    }
+  ],
+  "providerSecrets": {},
+  "providerHealth": {}
+}
